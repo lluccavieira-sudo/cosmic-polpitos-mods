@@ -1,0 +1,14 @@
+{
+  "nomeDoMod": "Gravidade Lunar & Nave Turbo",
+  "autor": "VieirasGames",
+  "versao": "1.0",
+  "configuracoes": {
+    "velocidadeNave": 1500,
+    "forcaVoo": 1000,
+    "gravidadePlaneta": 3.0,
+    "escalaNave": 1.0
+  },
+  "dialogos": {
+    "polpitoInicio": "Mod oficial de exemplo ativado! Cuidado para não voar longe demais!"
+  }
+}
