@@ -5,13 +5,16 @@ Aqui você encontra tudo o que precisa para modificar a física da nave, alterar
 
 ---
 
-## 📁 Como Instalar um Mod
 
-1. Baixe a versão **Desktop (PC)** oficial do *Cosmic Polpitos*.
-2. Abra a pasta onde o jogo está salvo e crie uma pasta chamada `mods` ao lado do executável (`.exe`).
-3. Coloque o arquivo `mod.json` (ou `mod.js`) dentro da pasta `mods`.
-4. Abra o jogo normalmente — o mod será carregado ao entrar no **Planeta 1**.
+📁 Como Rodar um Mod
 
+1. Baixe o arquivo oficial Cosmic Polpitos.json no repositório principal do jogo: github.com
+2. Abra o GDevelop (no aplicativo ou pelo navegador em gdevelop.io) e carregue o arquivo Cosmic Polpitos.json.
+3. Crie ou edite o seu arquivo mod.json com as novas configurações (como velocidade da nave, força de voo ou gravidade).
+4. Nos eventos da cena Planeta 1, adicione a ação Convert JSON to a scene variable (ou global variable) para carregar o texto do seu JSON diretamente nas variáveis do jogo.
+
+ 
+ A seguir temos alternativas diferentes
 ---
 
 ## 🛠️ Tutorial 1: Criando seu Primeiro Mod (`mod.json`)
